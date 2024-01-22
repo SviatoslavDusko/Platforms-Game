@@ -11,6 +11,6 @@ public class DesktopLauncher {
 		config.setForegroundFPS(60);
 		config.setTitle("Platforms");
 		new Lwjgl3Application(new Starter(), config);
-
+		System.out.println("123");
 	}
 }
